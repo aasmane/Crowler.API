@@ -14,12 +14,12 @@ namespace Crowler.API.Services
         /// <summary>
         /// the ICrowlingProvider Provider
         /// </summary>
-        private ICrowlingProvider _crowlingProvider;
+        private readonly ICrowlingProvider _crowlingProvider;
 
         /// <summary>
         /// the Configuration Middleware
         /// </summary>
-        private IConfiguration _configuration;
+        private readonly IConfiguration _configuration;
 
         /// <summary>
         /// the Default constructor
