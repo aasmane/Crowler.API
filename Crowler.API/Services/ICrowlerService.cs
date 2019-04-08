@@ -9,7 +9,7 @@ namespace Crowler.API.Services
     public interface ICrowlerService
     {
         /// <summary>
-        /// Launch Crowling
+        /// Launch Crowling 
         /// </summary>
         /// <param name="request">The request class</param>
         /// <returns>the result of crowling</returns>

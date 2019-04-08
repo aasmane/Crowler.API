@@ -10,9 +10,11 @@ namespace Crowler.API.Services
     /// </summary>
     public class CrowlerService : ICrowlerService
     {
-
+         
         private ICrowlingProvider _crowlingProvider;
         private IConfiguration _configuration;
+
+
         public CrowlerService(IConfiguration configuration, ICrowlingProvider crowlingProvider)
         {
             _configuration = configuration;
