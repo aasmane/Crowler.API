@@ -3,6 +3,9 @@ using System.Threading.Tasks;
 
 namespace Crowler.API.Services
 {
+    /// <summary>
+    /// the Crower Service Interface
+    /// </summary>
     public interface ICrowlerService
     {
         /// <summary>
