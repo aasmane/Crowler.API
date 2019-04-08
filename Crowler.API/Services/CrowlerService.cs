@@ -14,7 +14,6 @@ namespace Crowler.API.Services
         private ICrowlingProvider _crowlingProvider;
         private IConfiguration _configuration;
 
-
         public CrowlerService(IConfiguration configuration, ICrowlingProvider crowlingProvider)
         {
             _configuration = configuration;
