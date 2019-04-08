@@ -10,7 +10,7 @@ namespace Crowler.API.Services
     /// </summary>
     public class CrowlerService : ICrowlerService
     {
-
+          
         /// <summary>
         /// the ICrowlingProvider Provider
         /// </summary>
