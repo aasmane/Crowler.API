@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace Crowler.API.Services
 {
     /// <summary>
-    /// Crowling Class
+    /// Crowling Class Services
     /// </summary>
     public class CrowlerService : ICrowlerService
     {
